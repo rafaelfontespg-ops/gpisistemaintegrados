@@ -1,0 +1,6 @@
+{
+  "name": "GPI Sistemas - Soluções em Tecnologia para Gestão Pública",
+  "description": "Site institucional da GPI Sistemas, referência em tecnologia, ecossistemas digitais e sistemas de gestão integrada para a Gestão Pública e Cidades Inteligentes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

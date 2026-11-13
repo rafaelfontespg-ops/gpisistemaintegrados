@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-gpi-dark: #004361;
+  --color-gpi-deep: #335B8F;
+  --color-gpi-blue: #4A7EB3;
+  --color-gpi-light: #68A8DE;
+  --color-gpi-sky: #EBF4FC;
+}
+
+@layer base {
+  html, body, input, button, select, textarea {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  body {
+    font-family: var(--font-sans);
+    color: #1E293B;
+  }
+}
+
+/* Video canvas animation fallback pattern */
+@keyframes ambientGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-ambient {
+  animation: ambientGlow 12s ease-in-out infinite;
+}
+
